@@ -1,0 +1,2 @@
+set solib-search-path E:\workspace\android_studio\jni_dev\hello-jni\app/obj/local/armeabi-v7a
+directory E:/Android/android-ndk-r10/platforms/android-3/arch-arm/usr/include E:\workspace\android_studio\jni_dev\hello-jni\app/src/main/jni E:/Android/android-ndk-r10/sources/cxx-stl/system
