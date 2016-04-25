@@ -38,6 +38,7 @@ tasks.withType(JavaCompile) {
     compileTask -> compileTask.dependsOn ndkBuild
 }
 
+//gradle配置ndk编译原理,参考 http://blog.gaku.net/ndk/
 task ndkBuild(type: Exec, description: 'Compile JNI source via NDK') {
     // android.mk 地址 ，自行更改
     def androidMK = "$projectDir/src/main/jni/Android.mk"

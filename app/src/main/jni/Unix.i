@@ -11,6 +11,8 @@ swig -java -package com.apress.swig -outdir java/com/apress/swig jni/Unix.i
          |--Unix_wrap.c
 
 注:my-swig-generate.mk添加到Android.mk中没有执行成功,体会一下swig而已
+
+参考 Android  C++高级编程：使用NDK  第4章
 */
 %module Unix
 
